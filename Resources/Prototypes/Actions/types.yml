@@ -204,6 +204,9 @@
   - type: InstantAction
     icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
     event: !type:VoiceMaskSetNameEvent
+    
+    
+
 
 - type: entity
   id: ActionVendingThrow
@@ -328,3 +331,15 @@
       itemIconStyle: NoItem
       useDelay: 1 # emote spam
       event: !type:ToggleActionEvent
+
+
+
+- type: entity
+  id: ActionChangeVoiceMaskLite
+  name: Toggle
+  description: Change the name others hear to something else.
+  components:
+  - type: InstantAction
+    icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
+    event: !type:VoiceMaskLiteToggle
+

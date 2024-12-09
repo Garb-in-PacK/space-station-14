@@ -129,3 +129,15 @@
   description: Advanced security gear. Protects the station from ne'er-do-wells.
   icon: { sprite: Clothing/Head/Helmets/justice.rsi, state: icon }
   objectType: Item
+  
+  
+- type: construction
+  name: IvangelionMask
+  id: ClothingMaskIvangelionAdvancedMilitary
+  graph:  ClothingMaskIvangelionAdvancedMilitaryGraph
+  startNode: start
+  targetNode: mask
+  category: construction-category-clothing
+  description: Advanced security gear. Protects well hehe.
+  icon: { sprite: Clothing/Mask/gassyndicate.rsi, state: icon }
+  objectType: Item

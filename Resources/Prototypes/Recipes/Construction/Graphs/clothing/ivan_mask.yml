@@ -1,0 +1,34 @@
+- type: constructionGraph
+  id: ClothingMaskIvangelionAdvancedMilitaryGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: mask
+      steps:
+      - tag: ClownMask
+        name: Clown Mask
+        icon:
+          sprite: Clothing/Head/Helmets/security.rsi
+          state: icon
+      - material: Cable
+        amount: 2
+      - material: Glass
+        amount: 1
+      - tag: LightBulb
+        name: light bulb
+        icon:
+          sprite: Objects/Power/light_bulb.rsi
+          state: normal
+        doAfter: 5
+  - node: mask
+    entity: ClothingHeadHelmetJusticeEmpty
+
+
+
+
+
+
+
+
+
